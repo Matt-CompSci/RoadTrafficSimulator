@@ -1,0 +1,2406 @@
+Group {
+  name "tJunction"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  num_children 4
+  MatrixTransform {
+    UniqueID MatrixTransform_0
+    DataVariance STATIC
+    name "offset"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    referenceFrame RELATIVE
+    Matrix {
+      -4.37114e-08 1 0 0
+      -1 -4.37114e-08 0 0
+      0 0 1 0
+      0 0 0 1
+    }
+    num_children 1
+    Geode {
+      DataVariance STATIC
+      name "2LanesTIntersection-GEODE"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      num_drawables 13
+      Geometry {
+        name "Material #48"
+        StateSet {
+          UniqueID StateSet_1
+          name "Material #48"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 0.588 0.588 0.588 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 66
+        }
+        VertexArray Vec3Array 66
+        {
+          0 -236.22 0
+          118.11 -236.22 0
+          118.11 -236.22 3.54331
+          118.11 -236.22 3.54331
+          0 -236.22 3.54331
+          0 -236.22 0
+          118.11 -236.22 0
+          236.22 -236.22 0
+          236.22 -236.22 3.54331
+          236.22 -236.22 3.54331
+          118.11 -236.22 3.54331
+          118.11 -236.22 0
+          236.22 -236.22 0
+          236.22 -118.11 0
+          236.22 -118.11 3.54331
+          236.22 -118.11 3.54331
+          236.22 -236.22 3.54331
+          236.22 -236.22 0
+          236.22 236.22 0
+          236.22 236.22 0
+          236.22 118.11 0
+          236.22 236.22 0
+          118.11 236.22 0
+          118.11 236.22 0
+          118.11 236.22 0
+          236.22 236.22 0
+          236.22 236.22 0
+          118.11 236.22 0
+          0 236.22 0
+          0 236.22 0
+          0 236.22 0
+          118.11 236.22 0
+          118.11 236.22 0
+          0 -236.22 0
+          0 -236.22 3.54331
+          -118.11 -236.22 3.54331
+          -118.11 -236.22 3.54331
+          -118.11 -236.22 0
+          0 -236.22 0
+          -118.11 -236.22 0
+          -118.11 -236.22 3.54331
+          -236.22 -236.22 3.54331
+          -236.22 -236.22 3.54331
+          -236.22 -236.22 0
+          -118.11 -236.22 0
+          -236.22 -236.22 0
+          -236.22 -236.22 3.54331
+          -236.22 -118.11 3.54331
+          -236.22 -118.11 3.54331
+          -236.22 -118.11 0
+          -236.22 -236.22 0
+          -236.22 236.22 0
+          -236.22 118.11 0
+          -236.22 236.22 0
+          -236.22 236.22 0
+          -236.22 236.22 0
+          -118.11 236.22 0
+          -118.11 236.22 0
+          -118.11 236.22 0
+          -236.22 236.22 0
+          -118.11 236.22 0
+          -118.11 236.22 0
+          0 236.22 0
+          0 236.22 0
+          0 236.22 0
+          -118.11 236.22 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 66
+        {
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          1 0 -0
+          1 0 -0
+          1 0 -0
+          1 -0 0
+          1 -0 0
+          1 -0 0
+          -0 0 0
+          -0 0 0
+          -0 0 0
+          0 0 0
+          0 0 0
+          0 0 0
+          0 -0 0
+          0 -0 0
+          0 -0 0
+          0 0 0
+          0 0 0
+          0 0 0
+          0 -0 0
+          0 -0 0
+          0 -0 0
+          -0 -1 -0
+          -0 -1 -0
+          -0 -1 -0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          -0 -1 -0
+          -0 -1 -0
+          -0 -1 -0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          -1 0 0
+          -1 0 0
+          -1 0 0
+          -1 0 0
+          -1 0 0
+          -1 0 0
+          0 0 0
+          0 0 0
+          0 0 0
+          0 0 0
+          0 0 0
+          0 0 0
+          0 0 -0
+          0 0 -0
+          0 0 -0
+          0 0 0
+          0 0 0
+          0 0 0
+          0 0 -0
+          0 0 -0
+          0 0 -0
+        }
+      }
+      Geometry {
+        name "Material #283"
+        StateSet {
+          UniqueID StateSet_2
+          name "Material #283"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              UniqueID Texture2D_3
+              file "images\\EmptyTexture.tga"
+              wrap_s REPEAT
+              wrap_t REPEAT
+              wrap_r CLAMP_TO_EDGE
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply TRUE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo FALSE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 12
+        }
+        VertexArray Vec3Array 12
+        {
+          118.11 118.11 0
+          236.22 118.11 0
+          236.22 236.22 0
+          236.22 236.22 0
+          118.11 236.22 0
+          118.11 118.11 0
+          -118.11 118.11 0
+          -118.11 236.22 0
+          -236.22 236.22 0
+          -236.22 236.22 0
+          -236.22 118.11 0
+          -118.11 118.11 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 12
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 12
+        {
+          1 3
+          1 4
+          0 4
+          0 4
+          0 3
+          1 3
+          1 3
+          0 3
+          0 4
+          0 4
+          1 4
+          1 3
+        }
+      }
+      Geometry {
+        name "Material #414"
+        StateSet {
+          UniqueID StateSet_4
+          name "Material #414"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              UniqueID Texture2D_5
+              file "images\\Curb.tga"
+              wrap_s REPEAT
+              wrap_t REPEAT
+              wrap_r CLAMP_TO_EDGE
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply TRUE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo FALSE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 12
+        }
+        VertexArray Vec3Array 12
+        {
+          118.11 236.22 0
+          123.891 199.722 0
+          123.891 199.722 3.54331
+          123.891 199.722 3.54331
+          118.11 236.22 3.54331
+          118.11 236.22 0
+          -118.11 236.22 0
+          -118.11 236.22 3.54331
+          -123.891 199.722 3.54331
+          -123.891 199.722 3.54331
+          -123.891 199.722 0
+          -118.11 236.22 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 12
+        {
+          -0.987688 -0.156435 0
+          -0.951056 -0.309018 0
+          -0.951056 -0.309018 0
+          -0.951056 -0.309018 0
+          -0.987688 -0.156435 -0
+          -0.987688 -0.156435 0
+          0.987688 -0.156435 0
+          0.987688 -0.156435 0
+          0.951056 -0.309018 0
+          0.951056 -0.309018 0
+          0.951056 -0.309018 0
+          0.987688 -0.156435 0
+        }
+        TexCoordArray 0 Vec2Array 12
+        {
+          0 4.76837e-07
+          1 1
+          1 1
+          1 1
+          0 4.76837e-07
+          0 4.76837e-07
+          0 4.76837e-07
+          0 4.76837e-07
+          1 1
+          1 1
+          1 1
+          0 4.76837e-07
+        }
+      }
+      Geometry {
+        name "Material #333"
+        StateSet {
+          UniqueID StateSet_6
+          name "Material #333"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              UniqueID Texture2D_7
+              file "images\\ConcreteTexture.tga"
+              wrap_s REPEAT
+              wrap_t REPEAT
+              wrap_r CLAMP_TO_EDGE
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply TRUE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo FALSE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 90
+        }
+        VertexArray Vec3Array 90
+        {
+          118.11 236.22 3.54331
+          123.891 199.722 3.54331
+          180.056 217.971 3.54331
+          180.056 217.971 3.54331
+          177.165 236.22 3.54331
+          118.11 236.22 3.54331
+          123.891 199.722 3.54331
+          140.667 166.797 3.54331
+          188.444 201.509 3.54331
+          188.444 201.509 3.54331
+          180.056 217.971 3.54331
+          123.891 199.722 3.54331
+          140.667 166.797 3.54331
+          166.797 140.667 3.54331
+          201.509 188.444 3.54331
+          201.509 188.444 3.54331
+          188.444 201.509 3.54331
+          140.667 166.797 3.54331
+          166.797 140.667 3.54331
+          199.723 123.891 3.54331
+          217.971 180.056 3.54331
+          217.971 180.056 3.54331
+          201.509 188.444 3.54331
+          166.797 140.667 3.54331
+          199.723 123.891 3.54331
+          236.221 118.11 3.54331
+          236.221 177.165 3.54331
+          236.221 177.165 3.54331
+          217.971 180.056 3.54331
+          199.723 123.891 3.54331
+          177.165 236.22 3.54331
+          180.056 217.971 3.54331
+          236.22 236.22 3.54331
+          180.056 217.971 3.54331
+          188.444 201.509 3.54331
+          236.22 236.22 3.54331
+          188.444 201.509 3.54331
+          201.509 188.444 3.54331
+          236.22 236.22 3.54331
+          201.509 188.444 3.54331
+          217.971 180.056 3.54331
+          236.22 236.22 3.54331
+          217.971 180.056 3.54331
+          236.221 177.165 3.54331
+          236.22 236.22 3.54331
+          -118.11 236.22 3.54331
+          -177.165 236.22 3.54331
+          -180.056 217.971 3.54331
+          -180.056 217.971 3.54331
+          -123.891 199.722 3.54331
+          -118.11 236.22 3.54331
+          -123.891 199.722 3.54331
+          -180.056 217.971 3.54331
+          -188.444 201.509 3.54331
+          -188.444 201.509 3.54331
+          -140.667 166.797 3.54331
+          -123.891 199.722 3.54331
+          -140.667 166.797 3.54331
+          -188.444 201.509 3.54331
+          -201.509 188.444 3.54331
+          -201.509 188.444 3.54331
+          -166.797 140.667 3.54331
+          -140.667 166.797 3.54331
+          -166.797 140.667 3.54331
+          -201.509 188.444 3.54331
+          -217.971 180.056 3.54331
+          -217.971 180.056 3.54331
+          -199.723 123.891 3.54331
+          -166.797 140.667 3.54331
+          -199.723 123.891 3.54331
+          -217.971 180.056 3.54331
+          -236.221 177.165 3.54331
+          -236.221 177.165 3.54331
+          -236.221 118.11 3.54331
+          -199.723 123.891 3.54331
+          -177.165 236.22 3.54331
+          -236.22 236.22 3.54331
+          -180.056 217.971 3.54331
+          -180.056 217.971 3.54331
+          -236.22 236.22 3.54331
+          -188.444 201.509 3.54331
+          -188.444 201.509 3.54331
+          -236.22 236.22 3.54331
+          -201.509 188.444 3.54331
+          -201.509 188.444 3.54331
+          -236.22 236.22 3.54331
+          -217.971 180.056 3.54331
+          -217.971 180.056 3.54331
+          -236.22 236.22 3.54331
+          -236.221 177.165 3.54331
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 90
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 90
+        {
+          -5.96046e-08 1
+          0.0489434 0.690983
+          0.524471 0.845491
+          0.524471 0.845491
+          0.5 1
+          -5.96046e-08 1
+          0.0489434 0.690983
+          0.190983 0.412215
+          0.595491 0.706107
+          0.595491 0.706107
+          0.524471 0.845491
+          0.0489434 0.690983
+          0.190983 0.412215
+          0.412215 0.190983
+          0.706107 0.595491
+          0.706107 0.595491
+          0.595491 0.706107
+          0.190983 0.412215
+          0.412215 0.190983
+          0.690983 0.0489434
+          0.845491 0.524472
+          0.845491 0.524472
+          0.706107 0.595491
+          0.412215 0.190983
+          0.690983 0.0489434
+          1 5.96046e-08
+          1 0.5
+          1 0.5
+          0.845491 0.524472
+          0.690983 0.0489434
+          0.5 1
+          0.524471 0.845491
+          0.999999 1
+          0.524471 0.845491
+          0.595491 0.706107
+          0.999999 1
+          0.595491 0.706107
+          0.706107 0.595491
+          0.999999 1
+          0.706107 0.595491
+          0.845491 0.524472
+          0.999999 1
+          0.845491 0.524472
+          1 0.5
+          0.999999 1
+          -5.96046e-08 1
+          0.5 1
+          0.524471 0.845491
+          0.524471 0.845491
+          0.0489434 0.690983
+          -5.96046e-08 1
+          0.0489434 0.690983
+          0.524471 0.845491
+          0.595491 0.706107
+          0.595491 0.706107
+          0.190983 0.412215
+          0.0489434 0.690983
+          0.190983 0.412215
+          0.595491 0.706107
+          0.706107 0.595491
+          0.706107 0.595491
+          0.412215 0.190983
+          0.190983 0.412215
+          0.412215 0.190983
+          0.706107 0.595491
+          0.845491 0.524472
+          0.845491 0.524472
+          0.690983 0.0489434
+          0.412215 0.190983
+          0.690983 0.0489434
+          0.845491 0.524472
+          1 0.5
+          1 0.5
+          1 5.96046e-08
+          0.690983 0.0489434
+          0.5 1
+          0.999999 1
+          0.524471 0.845491
+          0.524471 0.845491
+          0.999999 1
+          0.595491 0.706107
+          0.595491 0.706107
+          0.999999 1
+          0.706107 0.595491
+          0.706107 0.595491
+          0.999999 1
+          0.845491 0.524472
+          0.845491 0.524472
+          0.999999 1
+          1 0.5
+        }
+      }
+      Geometry {
+        name "Material #359"
+        StateSet {
+          UniqueID StateSet_8
+          name "Material #359"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_5
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 12
+        }
+        VertexArray Vec3Array 12
+        {
+          199.723 123.891 0
+          236.221 118.11 0
+          236.221 118.11 3.54331
+          236.221 118.11 3.54331
+          199.723 123.891 3.54331
+          199.723 123.891 0
+          -199.723 123.891 0
+          -199.723 123.891 3.54331
+          -236.221 118.11 3.54331
+          -236.221 118.11 3.54331
+          -236.221 118.11 0
+          -199.723 123.891 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 12
+        {
+          -0.309016 -0.951057 0
+          -0.156434 -0.987688 0
+          -0.156434 -0.987688 0
+          -0.156434 -0.987688 0
+          -0.309016 -0.951057 0
+          -0.309016 -0.951057 0
+          0.309016 -0.951057 0
+          0.309016 -0.951057 0
+          0.156434 -0.987688 0
+          0.156434 -0.987688 0
+          0.156434 -0.987688 0
+          0.309016 -0.951057 0
+        }
+        TexCoordArray 0 Vec2Array 12
+        {
+          0 0
+          1 1
+          1 1
+          1 1
+          0 0
+          0 0
+          0 0
+          0 0
+          1 1
+          1 1
+          1 1
+          0 0
+        }
+      }
+      Geometry {
+        name "Material #372"
+        StateSet {
+          UniqueID StateSet_9
+          name "Material #372"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_5
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 12
+        }
+        VertexArray Vec3Array 12
+        {
+          166.797 140.667 0
+          199.723 123.891 0
+          199.723 123.891 3.54331
+          199.723 123.891 3.54331
+          166.797 140.667 3.54331
+          166.797 140.667 0
+          -166.797 140.667 0
+          -166.797 140.667 3.54331
+          -199.723 123.891 3.54331
+          -199.723 123.891 3.54331
+          -199.723 123.891 0
+          -166.797 140.667 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 12
+        {
+          -0.587785 -0.809017 0
+          -0.309016 -0.951057 0
+          -0.309016 -0.951057 0
+          -0.309016 -0.951057 0
+          -0.587785 -0.809017 0
+          -0.587785 -0.809017 0
+          0.587785 -0.809017 0
+          0.587785 -0.809017 0
+          0.309016 -0.951057 0
+          0.309016 -0.951057 0
+          0.309016 -0.951057 0
+          0.587785 -0.809017 0
+        }
+        TexCoordArray 0 Vec2Array 12
+        {
+          0 0
+          1 1
+          1 1
+          1 1
+          0 0
+          0 0
+          0 0
+          0 0
+          1 1
+          1 1
+          1 1
+          0 0
+        }
+      }
+      Geometry {
+        name "Material #295"
+        StateSet {
+          UniqueID StateSet_10
+          name "Material #295"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              UniqueID Texture2D_11
+              file "images\\StopLine.tga"
+              wrap_s REPEAT
+              wrap_t REPEAT
+              wrap_r CLAMP_TO_EDGE
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply TRUE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo FALSE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 12
+        }
+        VertexArray Vec3Array 12
+        {
+          0 118.11 0
+          118.11 118.11 0
+          118.11 236.22 0
+          118.11 236.22 0
+          0 236.22 0
+          0 118.11 0
+          0 118.11 0
+          0 236.22 0
+          -118.11 236.22 0
+          -118.11 236.22 0
+          -118.11 118.11 0
+          0 118.11 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 12
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          -0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 12
+        {
+          1 1
+          1.78814e-07 1
+          5.96046e-08 2.38419e-07
+          5.96046e-08 2.38419e-07
+          1 1.19209e-07
+          1 1
+          1 1
+          1 1.19209e-07
+          5.96046e-08 2.38419e-07
+          5.96046e-08 2.38419e-07
+          1.78814e-07 1
+          1 1
+        }
+      }
+      Geometry {
+        name "Material #124"
+        StateSet {
+          UniqueID StateSet_12
+          name "Material #124"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_7
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 24
+        }
+        VertexArray Vec3Array 24
+        {
+          0 -236.22 3.54331
+          118.11 -236.22 3.54331
+          118.11 -118.11 3.54331
+          118.11 -118.11 3.54331
+          0 -118.11 3.54331
+          0 -236.22 3.54331
+          118.11 -236.22 3.54331
+          236.22 -236.22 3.54331
+          236.22 -118.11 3.54331
+          236.22 -118.11 3.54331
+          118.11 -118.11 3.54331
+          118.11 -236.22 3.54331
+          0 -236.22 3.54331
+          0 -118.11 3.54331
+          -118.11 -118.11 3.54331
+          -118.11 -118.11 3.54331
+          -118.11 -236.22 3.54331
+          0 -236.22 3.54331
+          -118.11 -236.22 3.54331
+          -118.11 -118.11 3.54331
+          -236.22 -118.11 3.54331
+          -236.22 -118.11 3.54331
+          -236.22 -236.22 3.54331
+          -118.11 -236.22 3.54331
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 24
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          -0 0 1
+          0 0 1
+          0 0 1
+          0 -0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 24
+        {
+          1 2
+          1 3
+          2.38419e-07 3
+          2.38419e-07 3
+          1.19209e-07 2
+          1 2
+          1 3
+          1 4
+          2.38419e-07 4
+          2.38419e-07 4
+          2.38419e-07 3
+          1 3
+          1 2
+          1.19209e-07 2
+          2.38419e-07 3
+          2.38419e-07 3
+          1 3
+          1 2
+          1 3
+          2.38419e-07 3
+          2.38419e-07 4
+          2.38419e-07 4
+          1 4
+          1 3
+        }
+      }
+      Geometry {
+        name "Material #137"
+        StateSet {
+          UniqueID StateSet_13
+          name "Material #137"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_5
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 24
+        }
+        VertexArray Vec3Array 24
+        {
+          236.22 -118.11 0
+          118.11 -118.11 0
+          118.11 -118.11 3.54331
+          118.11 -118.11 3.54331
+          236.22 -118.11 3.54331
+          236.22 -118.11 0
+          118.11 -118.11 0
+          0 -118.11 0
+          0 -118.11 3.54331
+          0 -118.11 3.54331
+          118.11 -118.11 3.54331
+          118.11 -118.11 0
+          -236.22 -118.11 0
+          -236.22 -118.11 3.54331
+          -118.11 -118.11 3.54331
+          -118.11 -118.11 3.54331
+          -118.11 -118.11 0
+          -236.22 -118.11 0
+          -118.11 -118.11 0
+          -118.11 -118.11 3.54331
+          0 -118.11 3.54331
+          0 -118.11 3.54331
+          0 -118.11 0
+          -118.11 -118.11 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 24
+        {
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          -0 1 0
+          -0 1 0
+          -0 1 0
+          0 1 -0
+          0 1 -0
+          0 1 -0
+          -0 1 0
+          -0 1 0
+          -0 1 0
+          0 1 -0
+          0 1 -0
+          0 1 -0
+        }
+        TexCoordArray 0 Vec2Array 24
+        {
+          0.499981 12
+          0.499992 9
+          0.499992 9
+          0.499992 9
+          0.499981 12
+          0.499981 12
+          0.499992 9
+          0.5 6
+          0.5 6
+          0.5 6
+          0.499992 9
+          0.499992 9
+          0.499981 12
+          0.499981 12
+          0.499992 9
+          0.499992 9
+          0.499992 9
+          0.499981 12
+          0.499992 9
+          0.499992 9
+          0.5 6
+          0.5 6
+          0.5 6
+          0.499992 9
+        }
+      }
+      Geometry {
+        name "Material #271"
+        StateSet {
+          UniqueID StateSet_14
+          name "Material #271"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_11
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 24
+        }
+        VertexArray Vec3Array 24
+        {
+          118.11 -118.11 0
+          236.22 -118.11 0
+          236.22 0 0
+          236.22 0 0
+          118.11 0 0
+          118.11 -118.11 0
+          118.11 0 0
+          236.22 0 0
+          236.22 118.11 0
+          236.22 118.11 0
+          118.11 118.11 0
+          118.11 0 0
+          -118.11 -118.11 0
+          -118.11 0 0
+          -236.22 0 0
+          -236.22 0 0
+          -236.22 -118.11 0
+          -118.11 -118.11 0
+          -118.11 0 0
+          -118.11 118.11 0
+          -236.22 118.11 0
+          -236.22 118.11 0
+          -236.22 0 0
+          -118.11 0 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 24
+        {
+          0 0 1
+          0 -0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 24
+        {
+          2.98023e-07 1
+          -5.96046e-08 2.38419e-07
+          1 0
+          1 0
+          1 1
+          2.98023e-07 1
+          8.9407e-08 1
+          1.49012e-07 -2.38419e-07
+          1 0
+          1 0
+          1 1
+          8.9407e-08 1
+          2.98023e-07 1
+          1 1
+          1 0
+          1 0
+          -5.96046e-08 2.38419e-07
+          2.98023e-07 1
+          8.9407e-08 1
+          1 1
+          1 0
+          1 0
+          1.49012e-07 -2.38419e-07
+          8.9407e-08 1
+        }
+      }
+      Geometry {
+        name "Material #307"
+        StateSet {
+          UniqueID StateSet_15
+          name "Material #307"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_3
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 24
+        }
+        VertexArray Vec3Array 24
+        {
+          0 -118.11 0
+          118.11 -118.11 0
+          118.11 0 0
+          118.11 0 0
+          0 0 0
+          0 -118.11 0
+          0 0 0
+          118.11 0 0
+          118.11 118.11 0
+          118.11 118.11 0
+          0 118.11 0
+          0 0 0
+          0 -118.11 0
+          0 0 0
+          -118.11 0 0
+          -118.11 0 0
+          -118.11 -118.11 0
+          0 -118.11 0
+          0 0 0
+          0 118.11 0
+          -118.11 118.11 0
+          -118.11 118.11 0
+          -118.11 0 0
+          0 0 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 24
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 24
+        {
+          1 5.96046e-08
+          1 1
+          1.78814e-07 1
+          1.78814e-07 1
+          8.9407e-08 1.49012e-07
+          1 5.96046e-08
+          0 2
+          8.9407e-08 1
+          1 1
+          1 1
+          1 2
+          0 2
+          1 5.96046e-08
+          8.9407e-08 1.49012e-07
+          1.78814e-07 1
+          1.78814e-07 1
+          1 1
+          1 5.96046e-08
+          0 2
+          1 2
+          1 1
+          1 1
+          8.9407e-08 1
+          0 2
+        }
+      }
+      Geometry {
+        name "Material #385"
+        StateSet {
+          UniqueID StateSet_16
+          name "Material #385"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_5
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 12
+        }
+        VertexArray Vec3Array 12
+        {
+          140.667 166.797 0
+          166.797 140.667 0
+          166.797 140.667 3.54331
+          166.797 140.667 3.54331
+          140.667 166.797 3.54331
+          140.667 166.797 0
+          -140.667 166.797 0
+          -140.667 166.797 3.54331
+          -166.797 140.667 3.54331
+          -166.797 140.667 3.54331
+          -166.797 140.667 0
+          -140.667 166.797 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 12
+        {
+          -0.809017 -0.587786 0
+          -0.587785 -0.809017 0
+          -0.587785 -0.809017 0
+          -0.587785 -0.809017 0
+          -0.809017 -0.587786 0
+          -0.809017 -0.587786 0
+          0.809017 -0.587786 0
+          0.809017 -0.587786 0
+          0.587785 -0.809017 0
+          0.587785 -0.809017 0
+          0.587785 -0.809017 0
+          0.809017 -0.587786 0
+        }
+        TexCoordArray 0 Vec2Array 12
+        {
+          0 0
+          1 1
+          1 1
+          1 1
+          0 0
+          0 0
+          0 0
+          0 0
+          1 1
+          1 1
+          1 1
+          0 0
+        }
+      }
+      Geometry {
+        name "Material #399"
+        StateSet {
+          UniqueID StateSet_17
+          name "Material #399"
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING ON
+          GL_NORMALIZE ON
+          Material {
+            ColorMode OFF
+            ambientColor 0.588 0.588 0.588 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.8
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_5
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 12
+        }
+        VertexArray Vec3Array 12
+        {
+          123.891 199.722 0
+          140.667 166.797 0
+          140.667 166.797 3.54331
+          140.667 166.797 3.54331
+          123.891 199.722 3.54331
+          123.891 199.722 0
+          -123.891 199.722 0
+          -123.891 199.722 3.54331
+          -140.667 166.797 3.54331
+          -140.667 166.797 3.54331
+          -140.667 166.797 0
+          -123.891 199.722 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 12
+        {
+          -0.951056 -0.309018 0
+          -0.809017 -0.587786 0
+          -0.809017 -0.587786 0
+          -0.809017 -0.587786 0
+          -0.951056 -0.309018 0
+          -0.951056 -0.309018 0
+          0.951056 -0.309018 0
+          0.951056 -0.309018 0
+          0.809017 -0.587786 0
+          0.809017 -0.587786 0
+          0.809017 -0.587786 0
+          0.951056 -0.309018 0
+        }
+        TexCoordArray 0 Vec2Array 12
+        {
+          4.76837e-07 4.76837e-07
+          1 1
+          1 1
+          1 1
+          4.76837e-07 4.76837e-07
+          4.76837e-07 4.76837e-07
+          4.76837e-07 4.76837e-07
+          4.76837e-07 4.76837e-07
+          1 1
+          1 1
+          1 1
+          4.76837e-07 4.76837e-07
+        }
+      }
+    }
+  }
+  Switch {
+    name "IDSwitch"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    NewChildDefaultValue 0
+    ValueList {
+      0
+    }
+    num_children 1
+    Billboard {
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      num_drawables 1
+      osgText::Text {
+        StateSet {
+          UniqueID StateSet_18
+          rendering_hint TRANSPARENT_BIN
+          renderBinMode USE
+          binNumber 10
+          binName DepthSortedBin
+          GL_LIGHTING OFF
+          GL_BLEND ON
+          Uniform {
+            name "glyphTexture"
+            type int 1 IntArray 1
+            {
+              0 
+            }
+          }
+          Program {
+            GeometryVerticesOut 1
+            GeometryInputType TRIANGLES
+            GeometryOutputType TRIANGLE_STRIP
+            num_shaders 2
+            Shader {
+              type VERTEX
+              code {
+                "$OSG_GLSL_VERSION"
+                "$OSG_PRECISION_FLOAT"
+                ""
+                "$OSG_VARYING_OUT vec2 texCoord;"
+                "$OSG_VARYING_OUT vec4 vertexColor;"
+                ""
+                "void main(void)"
+                "{"
+                "    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;"
+                "    texCoord = gl_MultiTexCoord0.xy;"
+                "    vertexColor = gl_Color;"
+                ""
+                "#if !defined(GL_ES) && __VERSION__<140"
+                "    gl_ClipVertex = gl_ModelViewMatrix * gl_Vertex;"
+                "#endif"
+                "}"
+                ""
+              }
+            }
+            Shader {
+              type FRAGMENT
+              code {
+                "$OSG_GLSL_VERSION"
+                ""
+                "#pragma import_defines( BACKDROP_COLOR, SHADOW, OUTLINE)"
+                "#pragma import_defines( SIGNED_DISTANCE_FIELD, TEXTURE_DIMENSION, GLYPH_DIMENSION)"
+                ""
+                "#ifdef GL_ES"
+                "    #extension GL_OES_standard_derivatives : enable"
+                "    #ifndef GL_OES_standard_derivatives"
+                "        #undef SIGNED_DISTANCE_FIELD"
+                "    #endif"
+                "#endif"
+                ""
+                "#if !defined(GL_ES)"
+                "    #if __VERSION__>=400"
+                "        #define osg_TextureQueryLOD textureQueryLod"
+                "    #else"
+                "        #extension GL_ARB_texture_query_lod : enable"
+                "        #ifdef GL_ARB_texture_query_lod"
+                "            #define osg_TextureQueryLOD textureQueryLOD"
+                "        #endif"
+                "    #endif"
+                "#endif"
+                ""
+                "$OSG_PRECISION_FLOAT"
+                ""
+                "#if __VERSION__>=130"
+                "    #define TEXTURE texture"
+                "    #define TEXTURELOD textureLod"
+                "    out vec4 osg_FragColor;"
+                "#else"
+                "    #define TEXTURE texture2D"
+                "    #define TEXTURELOD texture2DLod"
+                "    #define osg_FragColor gl_FragColor"
+                "#endif"
+                ""
+                ""
+                "#if !defined(GL_ES) && __VERSION__>=130"
+                "    #define ALPHA r"
+                "    #define SDF g"
+                "#else"
+                "    #define ALPHA a"
+                "    #define SDF r"
+                "#endif"
+                ""
+                ""
+                "uniform sampler2D glyphTexture;"
+                ""
+                "$OSG_VARYING_IN vec2 texCoord;"
+                "$OSG_VARYING_IN vec4 vertexColor;"
+                ""
+                "#ifndef TEXTURE_DIMENSION"
+                "const float TEXTURE_DIMENSION = 1024.0;"
+                "#endif"
+                ""
+                "#ifndef GLYPH_DIMENSION"
+                "const float GLYPH_DIMENSION = 32.0;"
+                "#endif"
+                ""
+                "#ifdef SIGNED_DISTANCE_FIELD"
+                ""
+                "float distanceFromEdge(vec2 tc)"
+                "{"
+                "    float center_alpha = TEXTURELOD(glyphTexture, tc, 0.0).SDF;"
+                "    if (center_alpha==0.0) return -1.0;"
+                ""
+                "    //float distance_scale = (1.0/4.0)*1.41;"
+                "    float distance_scale = (1.0/6.0)*1.41;"
+                "    //float distance_scale = (1.0/8.0)*1.41;"
+                ""
+                "    return (center_alpha-0.5)*distance_scale;"
+                "}"
+                ""
+                "vec4 distanceFieldColorSample(float edge_distance, float blend_width, float  blend_half_width)"
+                "{"
+                "#ifdef OUTLINE"
+                "    float outline_width = OUTLINE*0.5;"
+                "    if (edge_distance>blend_half_width)"
+                "    {"
+                "        return vertexColor;"
+                "    }"
+                "    else if (edge_distance>-blend_half_width)"
+                "    {"
+                "        return mix(vertexColor, vec4(BACKDROP_COLOR.rgb, BACKDROP_COLOR.a*vertexColor.a), smoothstep(0.0, 1.0, (blend_half_width-edge_distance)/(blend_width)));"
+                "    }"
+                "    else if (edge_distance>(blend_half_width-outline_width))"
+                "    {"
+                "        return vec4(BACKDROP_COLOR.rgb, BACKDROP_COLOR.a*vertexColor.a);"
+                "    }"
+                "    else if (edge_distance>-(outline_width+blend_half_width))"
+                "    {"
+                "        return vec4(BACKDROP_COLOR.rgb, vertexColor.a * ((blend_half_width+outline_width+edge_distance)/blend_width));"
+                "    }"
+                "    else"
+                "    {"
+                "        return vec4(0.0, 0.0, 0.0, 0.0);"
+                "    }"
+                "#else"
+                "    if (edge_distance>blend_half_width)"
+                "    {"
+                "        return vertexColor;"
+                "    }"
+                "    else if (edge_distance>-blend_half_width)"
+                "    {"
+                "        return vec4(vertexColor.rgb, vertexColor.a * smoothstep(1.0, 0.0, (blend_half_width-edge_distance)/(blend_width)));"
+                "    }"
+                "    else"
+                "    {"
+                "        return vec4(0.0, 0.0, 0.0, 0.0);"
+                "    }"
+                "#endif"
+                "}"
+                ""
+                "vec4 textColor(vec2 src_texCoord)"
+                "{"
+                "    float sample_distance_scale = 0.75;"
+                "    vec2 dx = dFdx(src_texCoord)*sample_distance_scale;"
+                "    vec2 dy = dFdy(src_texCoord)*sample_distance_scale;"
+                ""
+                ""
+                "    float distance_across_pixel = length(dx+dy)*(TEXTURE_DIMENSION/GLYPH_DIMENSION);"
+                ""
+                "    // compute the appropriate number of samples required to avoid aliasing."
+                "    int maxNumSamplesAcrossSide = 4;"
+                ""
+                "    int numSamplesX = int(TEXTURE_DIMENSION * length(dx));"
+                "    int numSamplesY = int(TEXTURE_DIMENSION * length(dy));"
+                "    if (numSamplesX<2) numSamplesX = 2;"
+                "    if (numSamplesY<2) numSamplesY = 2;"
+                "    if (numSamplesX>maxNumSamplesAcrossSide) numSamplesX = maxNumSamplesAcrossSide;"
+                "    if (numSamplesY>maxNumSamplesAcrossSide) numSamplesY = maxNumSamplesAcrossSide;"
+                ""
+                ""
+                "    vec2 delta_tx = dx/float(numSamplesX-1);"
+                "    vec2 delta_ty = dy/float(numSamplesY-1);"
+                ""
+                "    float numSamples = float(numSamplesX)*float(numSamplesY);"
+                "    float scale = 1.0/numSamples;"
+                "    vec4 total_color = vec4(0.0,0.0,0.0,0.0);"
+                ""
+                "    float blend_width = 1.5*distance_across_pixel/numSamples;"
+                "    float blend_half_width = blend_width*0.5;"
+                ""
+                "    // check whether fragment is wholly within or outwith glyph body+outline"
+                "    float cd = distanceFromEdge(src_texCoord); // central distance (distance from center to edge)"
+                "    if (cd-blend_half_width>distance_across_pixel) return vertexColor; // pixel fully within glyph body"
+                ""
+                "    #ifdef OUTLINE"
+                "    float outline_width = OUTLINE*0.5;"
+                "    if ((-cd-outline_width-blend_half_width)>distance_across_pixel) return vec4(0.0, 0.0, 0.0, 0.0); // pixel fully outside outline+glyph body"
+                "    #else"
+                "    if (-cd-blend_half_width>distance_across_pixel) return vec4(0.0, 0.0, 0.0, 0.0); // pixel fully outside glyph body"
+                "    #endif"
+                ""
+                ""
+                "    // use multi-sampling to provide high quality antialised fragments"
+                "    vec2 origin = src_texCoord - dx*0.5 - dy*0.5;"
+                "    for(;numSamplesY>0; --numSamplesY)"
+                "    {"
+                "        vec2 pos = origin;"
+                "        int numX = numSamplesX;"
+                "        for(;numX>0; --numX)"
+                "        {"
+                "            vec4 c = distanceFieldColorSample(distanceFromEdge(pos), blend_width, blend_half_width);"
+                "            total_color = total_color + c * c.a;"
+                "            pos += delta_tx;"
+                "        }"
+                "        origin += delta_ty;"
+                "    }"
+                ""
+                "    total_color.rgb /= total_color.a;"
+                "    total_color.a *= scale;"
+                ""
+                "    return total_color;"
+                "}"
+                ""
+                "#else"
+                ""
+                "vec4 textColor(vec2 src_texCoord)"
+                "{"
+                ""
+                "#ifdef OUTLINE"
+                ""
+                "    float alpha = TEXTURE(glyphTexture, src_texCoord).ALPHA;"
+                "    float delta_tc = 1.6*OUTLINE*GLYPH_DIMENSION/TEXTURE_DIMENSION;"
+                ""
+                "    float outline_alpha = alpha;"
+                "    vec2 origin = src_texCoord-vec2(delta_tc*0.5, delta_tc*0.5);"
+                ""
+                "    float numSamples = 3.0;"
+                "    delta_tc = delta_tc/(numSamples-1.0);"
+                ""
+                "    float background_alpha = 1.0;"
+                ""
+                "    for(float i=0.0; i<numSamples; ++i)"
+                "    {"
+                "        for(float j=0.0; j<numSamples; ++j)"
+                "        {"
+                "            float local_alpha = TEXTURE(glyphTexture, origin + vec2(i*delta_tc, j*delta_tc)).ALPHA;"
+                "            outline_alpha = max(outline_alpha, local_alpha);"
+                "            background_alpha = background_alpha * (1.0-local_alpha);"
+                "        }"
+                "    }"
+                ""
+                "    #ifdef osg_TextureQueryLOD"
+                "        float mipmapLevel = osg_TextureQueryLOD(glyphTexture, src_texCoord).x;"
+                "        if (mipmapLevel<1.0)"
+                "        {"
+                "            outline_alpha = mix(1.0-background_alpha, outline_alpha, mipmapLevel/1.0);"
+                "        }"
+                "    #endif"
+                ""
+                "    if (outline_alpha<alpha) outline_alpha = alpha;"
+                "    if (outline_alpha>1.0) outline_alpha = 1.0;"
+                ""
+                "    if (outline_alpha==0.0) return vec4(0.0, 0.0, 0.0, 0.0); // outside glyph and outline"
+                ""
+                "    vec4 color = mix(BACKDROP_COLOR, vertexColor, smoothstep(0.0, 1.0, alpha));"
+                "    color.a = vertexColor.a * smoothstep(0.0, 1.0, outline_alpha);"
+                ""
+                "    return color;"
+                ""
+                "#else"
+                ""
+                "    float alpha = TEXTURE(glyphTexture, src_texCoord).ALPHA;"
+                "    if (alpha==0.0) vec4(0.0, 0.0, 0.0, 0.0);"
+                "    return vec4(vertexColor.rgb, vertexColor.a * alpha);"
+                ""
+                "#endif"
+                "}"
+                ""
+                "#endif"
+                ""
+                ""
+                "void main(void)"
+                "{"
+                "    if (texCoord.x<0.0 && texCoord.y<0.0)"
+                "    {"
+                "        osg_FragColor = vertexColor;"
+                "        return;"
+                "    }"
+                ""
+                "#ifdef SHADOW"
+                "    float scale = -1.0*GLYPH_DIMENSION/TEXTURE_DIMENSION;"
+                "    vec2 delta_tc = SHADOW*scale;"
+                "    vec4 shadow_color = textColor(texCoord+delta_tc);"
+                "    shadow_color.rgb = BACKDROP_COLOR.rgb;"
+                ""
+                "    vec4 glyph_color = textColor(texCoord);"
+                ""
+                "    // lower the alpha_power value the greater the staturation, no need to be so aggressive with SDF than GREYSCALE"
+                "    #if SIGNED_DISTANCE_FIELD"
+                "        float alpha_power = 0.6;"
+                "    #else"
+                "        float alpha_power = 0.5;"
+                "    #endif"
+                ""
+                "    // over saturate the alpha values to make sure the font and it's shadow are clear"
+                "    shadow_color.a = pow(shadow_color.a, alpha_power);"
+                "    glyph_color.a = pow(glyph_color.a, alpha_power);"
+                "    vec4 color = mix(shadow_color, glyph_color, glyph_color.a);"
+                ""
+                "#else"
+                "    vec4 color = textColor(texCoord);"
+                "#endif"
+                ""
+                "    if (color.a==0.0) discard;"
+                ""
+                "    osg_FragColor = color;"
+                "}"
+                ""
+              }
+            }
+          }
+        }
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 0 0 1
+        fontResolution 32 32
+        characterSize 32 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "tJunction"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      Mode POINT_ROT_EYE
+      Axis 0 0 1
+      Normal 0 0 1
+      Positions {
+        0 0 47.2441
+      }
+    }
+  }
+  Switch {
+    name "AnimationPointSwitch"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    NewChildDefaultValue 0
+    ValueList {
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+    }
+    num_children 10
+    MatrixTransform {
+      name "0"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -212.599 56.6929 0 1
+      }
+      num_children 1
+      Geode {
+        UniqueID Geode_19
+        nodeMask 0xffffffff
+        cullingActive TRUE
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          Material {
+            ColorMode OFF
+            ambientColor FRONT 0.2 0 0 1
+            ambientColor BACK  0.2 0.2 0.2 1
+            diffuseColor FRONT 0.8 0.1 0.1 1
+            diffuseColor BACK  0.8 0.8 0.8 1
+            specularColor FRONT 1 1 1 1
+            specularColor BACK  0 0 0 1
+            emissionColor 0 0 0 1
+            shininess FRONT 128
+            shininess BACK  0
+          }
+        }
+        num_drawables 1
+        ShapeDrawable {
+          StateSet {
+            rendering_hint DEFAULT_BIN
+            renderBinMode INHERIT
+            GL_LIGHTING OVERRIDE|ON
+          }
+          Cone {
+            Center -10 0 0
+            Radius 7
+            Height 40
+            Rotation 0 0.707107 0 0.707107
+          }
+          useDisplayList TRUE
+          useVertexBufferObjects FALSE
+          color 1 1 1 1
+        }
+      }
+    }
+    MatrixTransform {
+      name "1"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        0.707107 0.707107 0 0
+        -0.707107 0.707107 0 0
+        0 0 1 0
+        -113.386 113.386 0 1
+      }
+      num_children 1
+      Use Geode_19
+    }
+    MatrixTransform {
+      name "2"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        -4.37114e-08 1 0 0
+        -1 -4.37114e-08 0 0
+        0 0 1 0
+        -56.6929 212.598 0 1
+      }
+      num_children 1
+      Use Geode_19
+    }
+    MatrixTransform {
+      name "3"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        0.707107 -0.707107 0 0
+        0.707107 0.707107 0 0
+        0 0 1 0
+        9.44882 9.44882 0 1
+      }
+      num_children 1
+      Use Geode_19
+    }
+    MatrixTransform {
+      name "4"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        -4.37114e-08 -1 0 0
+        1 -4.37114e-08 0 0
+        0 0 1 0
+        56.6929 -212.598 0 1
+      }
+      num_children 1
+      Use Geode_19
+    }
+    MatrixTransform {
+      name "5"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        -4.37114e-08 -1 0 0
+        1 -4.37114e-08 0 0
+        0 0 1 0
+        56.6929 212.598 0 1
+      }
+      num_children 1
+      Use Geode_19
+    }
+    MatrixTransform {
+      name "6"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        -0.707107 -0.707107 0 0
+        0.707107 -0.707107 0 0
+        0 0 1 0
+        -9.44882 9.44882 0 1
+      }
+      num_children 1
+      Use Geode_19
+    }
+    MatrixTransform {
+      name "7"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        -1 -8.74228e-08 0 0
+        8.74228e-08 -1 0 0
+        0 0 1 0
+        -212.599 -56.6929 0 1
+      }
+      num_children 1
+      Use Geode_19
+    }
+    MatrixTransform {
+      name "8"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        -4.37114e-08 1 0 0
+        -1 -4.37114e-08 0 0
+        0 0 1 0
+        -56.6929 -212.598 0 1
+      }
+      num_children 1
+      Use Geode_19
+    }
+    MatrixTransform {
+      name "9"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      referenceFrame RELATIVE
+      Matrix {
+        -0.707107 0.707107 0 0
+        -0.707107 -0.707107 0 0
+        0 0 1 0
+        -113.386 -113.386 0 1
+      }
+      num_children 1
+      Use Geode_19
+    }
+  }
+  Switch {
+    name "AnimationIDSwitch"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    NewChildDefaultValue 0
+    ValueList {
+      0
+    }
+    num_children 1
+    Billboard {
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      num_drawables 10
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "0"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "1"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "2"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "3"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "4"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "5"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "6"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "7"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "8"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      osgText::Text {
+        Use StateSet_18
+        supportsDisplayList FALSE
+        useDisplayList FALSE
+        useVertexBufferObjects TRUE
+        color 1 1 1 1
+        fontResolution 32 32
+        characterSize 10 1
+        characterSizeMode OBJECT_COORDS
+        alignment CENTER_CENTER
+        layout LEFT_TO_RIGHT
+        position 0 0 0
+        drawMode 1
+        BoundingBoxMargin 0
+        BoundingBoxColor 0 0 0 0.5
+        text "9"
+        backdropType NONE
+        backdropHorizontalOffset 0.07
+        backdropVerticalOffset 0.07
+        backdropColor 0 0 0 1
+        colorGradientMode SOLID
+        colorGradientTopLeft 1 0 0 1
+        colorGradientBottomLeft 0 1 0 1
+        colorGradientBottomRight 0 0 1 1
+        colorGradientTopRight 1 1 1 1
+      }
+      Mode AXIAL_ROT
+      Axis 0 0 1
+      Normal 0 -1 0
+      Positions {
+        -212.599 56.6929 20
+        -113.386 113.386 20
+        -56.6929 212.598 20
+        9.44882 9.44882 20
+        56.6929 -212.598 20
+        56.6929 212.598 20
+        -9.44882 9.44882 20
+        -212.599 -56.6929 20
+        -56.6929 -212.598 20
+        -113.386 -113.386 20
+      }
+    }
+  }
+}
